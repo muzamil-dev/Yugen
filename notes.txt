@@ -1,0 +1,14 @@
+- pyQT app stats with QApplication and we can only use it once in a app
+- main window can be made by subclassing QMainWindow
+    i.e.
+    Class MainClass(QMainWindow):
+- pyQt is widget based kind of like componets in webdev
+- self. is how you can refrence the current object
+    i.e.
+    self.image_label = QLabel()
+    is like setting .image_label to be used 
+    then if you do
+    image_label = QLabel()
+- self.setWindowTitle("Title") sets the title of the window
+- use QLable to display Text 
+- 
